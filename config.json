@@ -1,0 +1,27 @@
+{
+  "default_chain": "Lumera",
+  "chains": {
+    "Lumera": {
+      "chain_id": "lumera-testnet-1",
+      "chain_prefix": "lumera",
+      "rpc_endpoint": "https://lumera-testnet-rpc.polkachu.com",
+      "rest_endpoint": "https://lumera-testnet-api.polkachu.com",
+      "gas_price": "0.025ulume",
+      "coin_denom": "ulume",
+      "coin_minimal_denom": "ulume",
+      "coin_decimals": "6",
+      "coin_symbol": "LUME"
+    },
+    "Kiichain": {
+      "chain_id": "oro_1336-1",
+      "chain_prefix": "kii",
+      "rpc_endpoint": "https://rpc.dos.sentry.testnet.v3.kiivalidator.com",
+      "rest_endpoint": "https://lcd.dos.sentry.testnet.v3.kiivalidator.com",
+      "gas_price": "200000000000akii",
+      "coin_denom": "akii",
+      "coin_minimal_denom": "akii",
+      "coin_decimals": "18",
+      "coin_symbol": "KII"
+    }
+  }
+}
